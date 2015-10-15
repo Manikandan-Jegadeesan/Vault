@@ -1,0 +1,9 @@
+(function(){
+var app = angular.module("ab",[]);
+var Mani = function($scope){
+  
+  $scope.message = "Hello, ANGULAR";
+  
+};
+app.controller("Mani", Mani );
+}());
